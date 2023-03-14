@@ -204,6 +204,7 @@
       width: 100%;
       display: flex;
       justify-content: center;
+      display: none;
       .next_prev_button {
         transition: 0.5s;
         cursor: pointer;
@@ -230,7 +231,7 @@
 
     .textInfo_block {
       width: 80%;
-      margin-top: -330px;
+      margin-top: -380px;
 
       p {
         font-size: 15px;
@@ -243,22 +244,6 @@
         font-size: 20px;
         top: 36%;
         left: 0%;
-      }
-    }
-    .button_group {
-      position: absolute;
-      top: 90%;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      .next_prev_button {
-        transition: 0.5s;
-        cursor: pointer;
-        margin: 15px;
-
-        &:hover {
-          transform: scale(1.05);
-        }
       }
     }
   }
