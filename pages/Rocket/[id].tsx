@@ -188,6 +188,7 @@ const Rocket: FC<RocketProps> = ({ rocket }) => {
               <br />
               <span>Number:</span>
               {rocket.landing_legs.number}
+              <br />
               <span>Material:</span>
               {rocket.landing_legs.material}
             </p>
