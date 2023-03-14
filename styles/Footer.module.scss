@@ -1,0 +1,35 @@
+.footer {
+  margin-top: 100px;
+  height: 100px;
+  background-color: white;
+  position: absolute;
+  border-bottom: 2px solid black;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+
+  .block1 {
+    margin-left: 30px;
+    img {
+      width: 90px;
+      height: 90px;
+    }
+  }
+
+  .block2 {
+    width: 40%;
+
+    p {
+      color: white;
+      font-size: 10px;
+      margin-bottom: 15px;
+
+      a {
+        text-decoration: none;
+        color: red;
+      }
+    }
+  }
+}
